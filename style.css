@@ -1,0 +1,40 @@
+@import url("./components/cards.css");
+
+/* Font asset */
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+.main-img {
+  background-image: url("../images/webpage.001.jpeg");
+  width: 100vw;
+  height: 100vh;
+  background-position: top;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.button a {
+  padding: 18px 22px;
+  color: azure;
+  text-decoration: none;
+  background-color: #C9A7EB;
+  transition: 0.30s;
+  border-radius: 30px;
+}
+
+.button a:hover {
+  transition: 0.30s;
+  background-color: #9384D1;
+}
+
+.button {
+  margin-bottom: 80px;
+}
